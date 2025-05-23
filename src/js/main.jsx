@@ -6,21 +6,7 @@ import "bootstrap"
 // index.css
 import '../styles/index.css'
 // components
-import NavBar from './components/NavBar';
-import Jumbotron from './components/Jumbotron';
-
-const Home = () => {
-  return (
-    <div>
-      <NavBar />
-      <Jumbotron />
-      <div className='bg-dark d-flex justify-content-center'>
-        <p className='text-light'>Copyright © Your Website 2025</p>
-      </div>
-    </div>
-  );
-};
-
+import Home from "./components/Home";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
